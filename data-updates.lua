@@ -31,7 +31,7 @@ for goodie, tech in pairs(unlocks) do
     :commit()
 
   khaoslib_technology:load(tech)
-    :add_unlock(goodie)
-    :add_unlock(goodie .. "-melt")
+    :add_unlock_recipe(goodie)
+    :add_unlock_recipe(goodie .. "-melt")
     :commit()
 end
