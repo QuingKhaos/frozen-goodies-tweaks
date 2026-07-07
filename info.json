@@ -1,12 +1,19 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "frozen-goodies-tweaks",
+  "title": "Frozen Goodies Tweaks",
+  "description": "Opinionated tweaks to Frozen Goodies.",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.0"
-  ]
+    "base >= 2.0.77",
+    "space-age >= 2.0.77",
+
+    "khaoslib >= 1.4.0",
+
+    "frozen-goodies >= 0.0.1",
+    "? bioprocessing-tab >= 1.5.0"
+  ],
+  "spoiling_required": true
 }
