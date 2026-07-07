@@ -1,5 +1,7 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-07-07
+  Bugfixes:
+    - Fix locales of recipes and items.
   Changes:
     - Move frozen goodies to bioprocessing tab if installed.
